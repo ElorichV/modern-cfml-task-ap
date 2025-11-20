@@ -1,12 +1,15 @@
-# unpacked plugin folders
-plugins/**/*
+# CommandBox & Server ignores
+WEB-INF/
+box.json
+server.json
+.CommandBox/
+server-*.json
+.env
+log/
+artifacts/
 
-# files directory where uploads go
-files
-
-# DBMigrate plugin: generated SQL
-db/sql
-
-# AssetBundler plugin: generated bundles
-javascripts/bundles
-stylesheets/bundles
+# IDE specifics
+.vscode/
+.idea/
+*.sublime-*
+.DS_Store
